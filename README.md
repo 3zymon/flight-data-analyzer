@@ -71,10 +71,15 @@ Duplicate records were also investigated and removed before further analysis.
 ## Project Structure
 
 flight-data-analyzer/
+
 ├── data/
+
 │   └── flights_2026_01.csv
+
 ├── analysis.py
+
 ├── README.md
+
 └── .gitignore
 
 ## What I Practiced
