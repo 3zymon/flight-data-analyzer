@@ -69,19 +69,14 @@ Missing values were investigated in the context of:
 Duplicate records were also investigated and removed before further analysis.
 
 ## Project Structure
-
+```text
 flight-data-analyzer/
-
 ├── data/
-
 │   └── flights_2026_01.csv
-
 ├── analysis.py
-
 ├── README.md
-
 └── .gitignore
-
+```
 ## What I Practiced
 This project helped me practice:
 
