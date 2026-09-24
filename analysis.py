@@ -113,7 +113,7 @@ median_arr_delay = df['ARR_DELAY'].median()
 print(f'Average arrival delay: {avg_arr_delay:.2f} minutes\n'
       f'Median arrival delay: {median_arr_delay:.2f} minutes')
 # What percentage of flights had an arrival delay greater than 15 minutes?
-arr_delay = df['ARR_DELAY'].dropna(d)
+arr_delay = df['ARR_DELAY'].dropna()
 arr_delayed = np.where(arr_delay > 15, 1, 0)
 percentage_arr_delayed = arr_delayed.mean()
 print(f'Percentage of flights with arrival delay greater than 15 minutes: {percentage_arr_delayed:.2%}')
