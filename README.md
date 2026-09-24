@@ -6,7 +6,7 @@ The goal of this project is to practice working with real-world datasets using P
 The analysis focuses on flight delays, cancellations, carrier performance, and data quality.
 
 ## Dataset
-The dataset comes from the U.S. Bureau of Transportation Statistics (BTS) and contains flight-level data for January 2026.
+The dataset comes from the U.S. Bureau of Transportation Statistics (BTS) and contains flight-level data for January 2025.
 
 The dataset contains 544,003 flight records and includes information about:
 * flight dates
